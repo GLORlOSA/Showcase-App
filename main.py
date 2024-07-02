@@ -11,5 +11,11 @@ with col2:
     st.subheader("Mehmet Eren Efegil")
     info_content = """
     Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
+    Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
     """
     st.info(info_content)
+
+
+text_content = """
+Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job."""
+st.text(text_content)
