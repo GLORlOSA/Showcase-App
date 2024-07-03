@@ -1,11 +1,12 @@
 import streamlit as st
 import smtplib, ssl
+import os
 
 host = "smtp.gmail.com"
 port = 465
 
 username = "efegileren@gmail.com"
-password = "uqpj bbbs gbbx tnmd"
+password = os.getenv("FIRSTPASS")
 
 receiver = "efegileren@gmail.com"
 context = ssl.create_default_context()
