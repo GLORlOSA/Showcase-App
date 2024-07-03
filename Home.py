@@ -3,7 +3,7 @@ import pandas
 
 st.set_page_config(layout="wide")
 
-col1, col2 = st.columns([1,3], gap="small")
+col1, col2 = st.columns([1,2], gap="small")
 
 col3, useless_col, col4 = st.columns([5, 1, 5])
 
@@ -17,8 +17,7 @@ with col2:
     Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
     Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
     Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
-    Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
-    Learn Python from zero to complete by building real programs to gain the skills needed to land an entry-level job.
+
     """
     st.info(info_content)
 
